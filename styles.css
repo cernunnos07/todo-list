@@ -99,7 +99,7 @@ body {
     background-color: hsl(165, 88%, 68%);
     border-radius: 10px;
     padding: 10px;
-    height: 100px;   
+    min-height: 100px;   
 }
 
 .task-lists-section h2, .completed-tasks-section h2 {

@@ -33,8 +33,8 @@ $completed_tasks = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <div class="new-task-section">
             <h2>New Task</h2>
             <form action="add_task.php" method="POST">
-                <input type="text" name="task_name" placeholder="Task">
-                <button type="submit" class="add-task-btn">Add Task</button>
+                <input type="text" name="task_name" placeholder="Task" required>
+                <button type="submit" class="add-task-btn" >Add Task</button>
             </form>
         </div>
         
